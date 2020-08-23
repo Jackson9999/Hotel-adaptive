@@ -1,0 +1,614 @@
+@media (min-width: 769px) and (max-width: 1060px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  #wrapper {
+    width: 100%;
+  }
+  header {
+    background: url("images/banner.jpg") no-repeat center center;
+    background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    width: 100%;
+    height: 550px;
+  }
+  nav {
+    background: rgb(255, 255, 153);
+    opacity: 0.7;
+    width: 100%;
+  }
+  .navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .navbar img {
+    width: 170px;
+    margin-left: -40px;
+  }
+  ul li {
+    display: inline;
+    list-style: none;
+    font-size: 1.5em;
+    font-weight: bold;
+    opacity: 0.8;
+    margin-left: 20px;
+  }
+  header a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
+  header a:hover {
+    color: rgb(0, 102, 255);
+  }
+  header p {
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(255, 00, 00);
+    margin-top: 150px;
+  }
+  main {
+    background: url("images/halftone-yellow.png");
+    width: 100%;
+  }
+  .content {
+    width: 100%;
+  }
+  .content .rest {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+  }
+  .rest .pattern {
+    margin-left: 10px;
+  }
+  .pattern img {
+    width: 200px;
+  }
+  .rest .rest-text {
+    width: 100%;
+    text-align: center;
+    font-size: 1.025em;
+    margin-left: -100px;
+  }
+  .rest .rest-picture {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-right: 5px;
+  }
+  .rest-picture img {
+    width: 180px;
+    height: 230px;
+    margin-left: 10px;
+  }
+  .content .photos {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 30px 0;
+    border-bottom: 3px solid rgb(102, 51, 153);
+    border-top: 3px solid rgb(102, 51, 153);
+  }
+  .photos img {
+    width: 260px;
+    height: 150px;
+  }
+  .content .spa {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 0;
+  }
+  .spa .spa-picture {
+    width: 35%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .spa-picture img {
+    width: 130px;
+    height: 75px;
+    margin: 1px;
+  }
+  .spa .spa-text {
+    width: 45%;
+    text-align: center;
+    font-size: 1.025em;
+    margin-right: -120px;
+  }
+  .spa .pattern {
+    margin: 20px 50px 0;
+    width: 20%;
+  }
+  .spa .pattern img {
+    width: 200px;
+  }
+  .content .capt {
+    background: url("images/fancy-design.png") no-repeat center center;
+    background-size: 50% auto;
+    -o-background-size: 50% auto;
+    -webkit-background-size: 50% auto;
+    -moz-background-size: 50% auto;
+    font-family: "Prata", serif;
+    font-weight: bold;
+    font-size: 0.7em;
+    color: rgb(204, 00, 00);
+    padding: 40px 0 30px;
+  }
+  .banner {
+    background: url("images/glavnaia3.jpg") no-repeat center center;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    opacity: 0.8;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+  }
+  .banner p {
+    font-size: 2.5em;
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(255, 00, 00);
+    padding-top: 20px;
+  }
+  .banner button {
+    width: 170px;
+    height: 50px;
+    margin: 30px 0;
+    border-radius: 3px;
+    border: rgb(255, 102, 00);
+    background: rgb(255, 102, 00);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+  }
+  .gps {
+    width: 100%;
+    margin: 5px auto 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  .gps iframe {
+    width: 500px;
+    height: 300px;
+  }
+  .gps img {
+    width: 100%;
+    height: 300px;
+  }
+  footer {
+    width: 100%;
+    background: rgb(76, 76, 76);
+    color: rgb(255, 255, 255);
+  }
+  .down {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 5px 0;
+  }
+  .down p {
+    align-self: center;
+  }
+  .down button {
+    width: 170px;
+    height: 40px;
+    border-radius: 3px;
+    border: rgb(255, 102, 00);
+    background: rgb(255, 102, 00);
+    color: rgb(0, 0, 0);
+  }
+}
+
+
+@media (min-width: 481px) and (max-width: 768px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  #wrapper {
+    width: 100%;
+  }
+  header {
+    background: url("images/banner.jpg") no-repeat bottom center;
+    background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    width: 100%;
+    height: 100%;
+    display: flex;
+  }
+  nav {
+    background: rgb(255, 255, 153);
+    opacity: 0.7;
+    width: 150px;
+  }
+  .navbar {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .navbar img {
+    width: 150px;
+    margin-left: -10px;
+  }
+  ul li {
+    display: block;
+    list-style: none;
+    font-size: 1.5em;
+    font-weight: bold;
+    opacity: 0.8;
+    margin-left: 15px;
+  }
+  header a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
+  header a:hover {
+    color: rgb(0, 102, 255);
+  }
+  header p {
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(255, 00, 00);
+    margin: 40px 20px 0;
+  }
+  main {
+    background: url("images/halftone-yellow.png");
+    width: 100%;
+  }
+  .content {
+    width: 100%;
+  }
+  .content .rest {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px 0;
+  }
+  .pattern {
+    display: none;
+  }
+  .rest .rest-text,
+  .spa .spa-text {
+    width: 100%;
+    text-align: center;
+    font-size: 1.125em;
+    margin: 5px;
+  }
+  .rest .rest-picture {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .rest-picture img {
+    width: 200px;
+    height: 230px;
+  }
+  .content .photos {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 10px 0 -10px;
+    border-bottom: 3px solid rgb(102, 51, 153);
+    border-top: 3px solid rgb(102, 51, 153);
+  }
+  .photos p {
+    padding-bottom: 10px;
+  }
+  .photos img {
+    width: 350px;
+    height: 100%;
+  }
+  .content .spa {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px 0;
+  }
+  .spa .spa-picture {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .spa-picture img {
+    width: 260px;
+    height: 120px;
+  }
+  .spa .pattern {
+    width: 45%;
+  }
+  .content .capt {
+    background: url("images/fancy-design.png") no-repeat center center;
+    background-size: 50% auto;
+    -o-background-size: 50% auto;
+    -webkit-background-size: 50% auto;
+    -moz-background-size: 50% auto;
+    font-family: "Prata", serif;
+    font-weight: bold;
+    color: rgb(204, 00, 00);
+    padding: 40px 0 30px;
+  }
+  .banner {
+    background: url("images/glavnaia3.jpg") no-repeat center center;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    opacity: 0.8;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+  }
+  .banner p {
+    font-size: 2.5em;
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(255, 00, 00);
+    padding-top: 20px;
+  }
+  .banner button {
+    width: 170px;
+    height: 50px;
+    margin: 30px 0;
+    border-radius: 3px;
+    border: rgb(255, 102, 00);
+    background: rgb(255, 102, 00);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+  }
+  .gps {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: -1px;
+  }
+  .gps iframe {
+    width: 100%;
+  }
+  .gps img {
+    width: 100%;
+  }
+  footer {
+    width: 100%;
+    background: rgb(76, 76, 76);
+    color: rgb(255, 255, 255);
+  }
+  .down {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: -5px;
+  }
+  .down p {
+    align-self: center;
+  }
+  .down button {
+    width: 170px;
+    height: 40px;
+    border-radius: 3px;
+    border: rgb(255, 102, 00);
+    background: rgb(255, 102, 00);
+    color: rgb(0, 0, 0);
+  }
+}
+
+
+@media (max-width: 480px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  #wrapper {
+    width: 100%;
+  }
+  header {
+    background: url("images/banner.jpg") no-repeat bottom center;
+    background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    width: 100%;
+    height: 100%;
+    display: flex;
+  }
+  nav {
+    background: rgb(255, 255, 153);
+    opacity: 0.7;
+    width: 85px;
+  }
+  .navbar {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .navbar img {
+    width: 120px;
+    margin-left: -20px;
+  }
+  ul li {
+    list-style: none;
+    font-size: 1em;
+    font-weight: bold;
+    opacity: 0.8;
+    margin-left: 3px;
+    display: block;
+  }
+  header a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
+  header a:hover {
+    color: rgb(0, 102, 255);
+  }
+  header p {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(255, 00, 00);
+    margin: 40px 12px 0;
+  }
+  main {
+    background: url("images/halftone-yellow.png");
+    width: 100%;
+  }
+  .content {
+    width: 100%;
+  }
+  .content .rest {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+  }
+  .pattern img {
+    display: none;
+    width: 200px;
+  }
+  .rest .rest-text,
+  .spa .spa-text {
+    width: 100%;
+    text-align: center;
+    font-size: 1em;
+  }
+  .rest .rest-picture {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .rest-picture img {
+    width: 90%;
+    margin-left: 10px;
+  }
+  .content .photos {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 10px 0;
+    border-bottom: 3px solid rgb(102, 51, 153);
+    border-top: 3px solid rgb(102, 51, 153);
+  }
+  .photos img {
+    width: 220px;
+    height: 150px;
+  }
+  .content .spa {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 0;
+  }
+  .spa .spa-picture {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .spa-picture img {
+    width: 200px;
+    height: 100px;
+  }
+  .spa .spa-text {
+    order: -1;
+  }
+  .content .capt {
+    background: url("images/fancy-design.png") no-repeat center center;
+    background-size: 50% auto;
+    -o-background-size: 50% auto;
+    -webkit-background-size: 50% auto;
+    -moz-background-size: 50% auto;
+    font-family: "Prata", serif;
+    font-weight: bold;
+    color: rgb(204, 00, 00);
+    padding: 40px 0 30px;
+  }
+  .banner {
+    background: url("images/glavnaia3.jpg") no-repeat center center;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    opacity: 0.8;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+  }
+  .banner p {
+    font-size: 1.5em;
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(255, 00, 00);
+    padding-top: 10px;
+  }
+  .banner button {
+    width: 150px;
+    height: 30px;
+    margin: 20px 0;
+    border-radius: 3px;
+    border: rgb(255, 102, 00);
+    background: rgb(255, 102, 00);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+  }
+  .gps {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    margin-top: -1px;
+  }
+  .gps iframe {
+    width: 100%;
+  }
+  .gps img {
+    width: 100%;
+  }
+  footer {
+    width: 100%;
+    background: rgb(76, 76, 76);
+    color: rgb(255, 255, 255);
+  }
+  .down {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 5px 0;
+    margin-top: -5px;
+  }
+  .down p {
+    align-self: center;
+  }
+  .down button {
+    width: 150px;
+    height: 40px;
+    border-radius: 3px;
+    border: rgb(255, 102, 00);
+    background: rgb(255, 102, 00);
+    color: rgb(0, 0, 0);
+  }
+}
